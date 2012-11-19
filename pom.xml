@@ -36,7 +36,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
-    <name>JavaFX Maven Archetype</name>
+    <name>JavaFX Basic Archetype</name>
     <url>https://github.com/zonski/javafx-basic-archetype</url>
     <description>
         The JavaFX Basic Archetype provides core functionality for assembling JavaFX applications.
