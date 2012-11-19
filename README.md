@@ -7,7 +7,7 @@ Usage
 ======
 
 ```
- mvn -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype
+ mvn archetype:generate -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype
 ```
 
 See the JavaFX Maven Plugin for more details on using your generated project:
