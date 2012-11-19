@@ -12,7 +12,7 @@ Usage
 
 See the JavaFX Maven Plugin for more details on using your generated project:
 
-    https://github.com/zonski/javafx-maven-plugin
+* https://github.com/zonski/javafx-maven-plugin
 
 
 License
