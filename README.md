@@ -7,7 +7,7 @@ Usage
 ======
 
 ```
- mvn -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype
+ mvn archetype:generate -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype
 ```
 
 See the JavaFX Maven Plugin for more details on using your generated project:
@@ -18,7 +18,9 @@ See the JavaFX Maven Plugin for more details on using your generated project:
 Licence
 ============
 
-The JavaFX Basic Archetype provides core functionality for assembling JavaFX applications Copyright (C) 2012  Daniel Zwolenski
+The JavaFX Basic Archetype provides a Maven archetype for generating a basic JavaFX starter project. 
+
+Copyright (C) 2012  Daniel Zwolenski
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
