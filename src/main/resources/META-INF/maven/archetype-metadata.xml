@@ -52,6 +52,7 @@
             <directory>src/main/deploy</directory>
             <includes>
                 <include>**/*.icns</include>
+                <include>**/*.ico</include>
                 <include>**/*.jpg</include>
                 <include>**/*.png</include>
                 <include>**/*.jks</include>
