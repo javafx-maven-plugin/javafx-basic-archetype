@@ -27,6 +27,10 @@
         xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+    <requiredProperties>
+        <requiredProperty key="organizationName"/>
+    </requiredProperties>
+
     <fileSets>
 
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -47,6 +51,7 @@
         <fileSet encoding="UTF-8">
             <directory>src/main/deploy</directory>
             <includes>
+                <include>**/*.icns</include>
                 <include>**/*.jpg</include>
                 <include>**/*.png</include>
                 <include>**/*.jks</include>
