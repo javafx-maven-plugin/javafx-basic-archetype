@@ -16,7 +16,8 @@
     </organization>
 
     <properties>
-        <slf4j.version>1.6.1</slf4j.version>
+        <slf4j.version>1.7.12</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
     <build>
@@ -28,7 +29,7 @@
             <plugin>
                 <groupId>com.zenjava</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>8.1.2</version>
+                <version>8.1.5</version>
                 <configuration>
 
                     <mainClass>${package}.MainApp</mainClass>
@@ -52,7 +53,7 @@
         <dependency>
             <groupId>com.miglayout</groupId>
             <artifactId>miglayout-javafx</artifactId>
-            <version>4.2</version>
+            <version>5.0</version>
         </dependency>
 
         <!-- Apache Commons -->
@@ -83,7 +84,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.16</version>
+            <version>${log4j.version}</version>
         </dependency>
 
     </dependencies>
